@@ -17,8 +17,7 @@ setup(
   description = 'StyleGan2 in Pytorch',
   author = 'Phil Wang',
   author_email = 'lucidrains@gmail.com',
-  url = 'https://github.com/lucidrains/stylegan2-pytorch',
-  download_url = 'https://github.com/lucidrains/stylegan2-pytorch/archive/v_036.tar.gz',
+  url = 'https://github.com/manasjyoti97/stylegan2-pytorch',
   keywords = ['generative adversarial networks', 'artificial intelligence'],
   install_requires=[
       'aim',
