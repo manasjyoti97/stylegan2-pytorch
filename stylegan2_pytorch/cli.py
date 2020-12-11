@@ -66,8 +66,8 @@ def run_training(rank, world_size, model_args, data, load_from, new, num_train_s
         dist.destroy_process_group()
 
 def train_from_folder(
-    data = './data',
-    results_dir = './results',
+    data = '/storage/Uniqli/cityx/Input/Test/residential',
+    results_dir = '/storage/manas/result',
     models_dir = '/storage/manas/model',
     name = 'default',
     new = False,
