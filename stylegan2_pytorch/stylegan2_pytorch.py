@@ -739,6 +739,7 @@ class Trainer():
         self.base_dir = base_dir
         self.results_dir = base_dir / results_dir
         self.models_dir = base_dir / models_dir
+        print(self.results_dir, self.models_dir)
         self.config_path = self.models_dir / name / '.config.json'
 
         assert log2(image_size).is_integer(), 'image size must be a power of 2 (64, 128, 256, 512, 1024)'
